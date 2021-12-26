@@ -1,6 +1,6 @@
 # dokku neo4j [![Build Status](https://img.shields.io/travis/nampdn/dokku-neo4j.svg?branch=master "Build Status")](https://travis-ci.org/nampdn/dokku-neo4j) [![IRC Network](https://img.shields.io/badge/irc-freenode-blue.svg "IRC Freenode")](https://webchat.freenode.net/?channels=dokku)
 
-Unofficial neo4j plugin for dokku. Currently defaults to installing [neo4j 4.0.0](https://hub.docker.com/_/neo4j/).
+Unofficial neo4j plugin for dokku. Currently defaults to installing [neo4j 4.4.1](https://hub.docker.com/_/neo4j/).
 
 ## requirements
 
@@ -11,7 +11,7 @@ Unofficial neo4j plugin for dokku. Currently defaults to installing [neo4j 4.0.0
 
 ```shell
 # on 0.12.x+
-sudo dokku plugin:install https://github.com/nampdn/dokku-neo4j.git neo4j
+sudo dokku plugin:install https://github.com/jyoost/dokku-neo4j.git neo4j
 ```
 
 ## commands
